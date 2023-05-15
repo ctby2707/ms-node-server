@@ -6,19 +6,20 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node server.js",
-    "test": "mocha **.spec.js"
+    "test": "jest"
   },
   "devDependencies": {
-    "mocha": "4.0.1",
-    "chai": "4.1.2"
+    "chai": "4.1.2",
+    "jest": "29.5.0"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
-    "express": "^4.13.3",
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
+    "eslint": "^8.40.0",
+    "express": "^4.13.3",
     "express-session": "^1.14.2",
-    "pug": "^2.0.3"
+    "lodash": "^4.17.15",
+    "pug": "^3.0.2"
   },
   "repository": {
     "type": "git",
